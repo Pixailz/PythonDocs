@@ -1,0 +1,6 @@
+Chat
+Chien
+Elephant
+Orque
+Tigre
+Saumon
