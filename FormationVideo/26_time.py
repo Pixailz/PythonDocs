@@ -22,7 +22,7 @@ Epoch (Unix): 1er Janvier 1970 à 00h00m00s GMT
 
 .strftime():
     %d : jour (00:31)
-    %A : jour de la semaines 
+    %A : jour de la semaines
     %a : jour abrégé
 
     %m : mois (01:12)

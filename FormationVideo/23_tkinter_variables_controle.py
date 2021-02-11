@@ -7,7 +7,7 @@ Type
     DoubleVar()     : nombre flottant [float]
     BooleanVar()    : booléen [bool]
 acces
-    get()           : 
+    get()           :
     set()           :
 
 widget

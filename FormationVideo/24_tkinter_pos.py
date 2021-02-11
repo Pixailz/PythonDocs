@@ -14,9 +14,9 @@ count = 0
 def printHello():
 
     global count
-    
+
     count += 1
-    
+
     print(f"HELLO : {count}")
 
 # window config

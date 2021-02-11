@@ -24,7 +24,7 @@ message_Welcome.pack()
 #entry_name = tkinter.Entry(app)
 #entry_name = tkinter.Entry(app, width=45)
 #entry_name = tkinter.Entry(app, width=45, show="*")
-entry_name = tkinter.Entry(app, width=45, show="*", exportselection=False) 
+entry_name = tkinter.Entry(app, width=45, show="*", exportselection=False)
 # empeche la copy auto dans le press papier
 entry_name.pack()
 
