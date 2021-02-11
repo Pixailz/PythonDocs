@@ -26,7 +26,7 @@ pygame.draw.rect(surface=window_surface, color=BLACK, rect=rectangle, width=EPAI
 
 pygame.draw.circle(surface=window_surface, color=BLACK, center=(220, 60), radius=50, width=EPAISSEUR)
 
-polygon = [(300, 50), (350, 50), (350, 100), (300, 100), (1000, 1500)]
+polygon = [(300, 50), (350, 50), (350, 100), (300, 100)]
 pygame.draw.polygon(surface=window_surface, color=BLACK, points=polygon, width=EPAISSEUR)
 
 pygame.display.flip()
