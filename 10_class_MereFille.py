@@ -17,13 +17,13 @@ class Vehicule:
     def __init__(self, nom_vehicule, quantite_essence):
         self.nom = nom_vehicule
         self.essence = quantite_essence
-    
+
     def se_deplacer(self):
         print("Le véhicule {} se déplace...".format(self.nom))
 
 # Classe Fille
 class Voiture(Vehicule):
-    
+
     def __init__(self, nom_voiture, essence, puissance):
         Vehicule.__init__(self, nom_voiture, essence)
         self.puissance = puissance
@@ -35,7 +35,7 @@ class Avion(Vehicule):
     def __init__(self, nom, essence, marchandise):
         Vehicule.__init__(self, nom, essence)
         self.marchandise = marchandise
-    
+
     def se_deplacer(self):
         print("Je vole...")
 

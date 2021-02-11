@@ -51,7 +51,7 @@ class Files():
         content = self.f.readlines()
         for line in range(len(content)):
             print(content[line], end="")
-    
+
     def FCheckOpened(self):
         if self.f.closed:
             print("Fichier fermé")

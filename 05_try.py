@@ -48,7 +48,7 @@ def divisionMINI(n1, n2):
     try:
         n2 = int(n2)
         print("Résultat = {}".format(n1 / n2))
-    
+
     except:
         print("Une erreur est survenue")
 

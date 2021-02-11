@@ -23,10 +23,10 @@ class Humain:
 
     def _getage(self):
         try:
-            
+
             if self._age <= 1:
                 return str(self._age) + " an"
-            
+
             else:
                 return str(self._age) + " ans"
 

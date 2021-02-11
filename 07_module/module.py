@@ -8,7 +8,7 @@ Importer un modules : import <nom_module>
 """
 
 """
-import math 
+import math
 help("math")
 """
 

@@ -43,30 +43,30 @@ class Variable():
 
         self.name = input("Entrer un nom de Joueur : ")
         print("Bienvenue ,", self.name)
-    
+
     def Afficher(self):
 
         print(self.age, type(self.age))
         print(self.prixHT, type(self.prixHT))
         print("L'âge de la personne est {} et le prix HT est de {} euros.".format(self.age, self.prixHT))
-    
+
     def htTottc(self):
 
         self.prixTTC = int(self.prixHT + (self.prixHT * 0.2))
         print(f"PRIX HT\t\t{self.prixHT}\nPRIX TTC\t{self.prixTTC}")
 
 def Operation(nombre1=0, nombre2=0, operateur=None):
-    
+
     n1 = nombre1
     n2 = nombre2
 
     if operateur == None:
         print("Entrer un operateur")
-    
+
     if operateur not in "*/-+":
         print("Entrer un operateur correct")
         exit()
-    
+
     if operateur == "+":
         return n1 + n2
 

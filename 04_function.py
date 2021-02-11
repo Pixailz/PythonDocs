@@ -4,7 +4,7 @@
 def fonc(a=1, b=2, c=3, d=4, e=5):
     print("a =", a, "b =", b, "c =", c, "d =", d, "e =", e)
 
-def dire_bonjour(): 
+def dire_bonjour():
   print("bonjour tout le monde ! :)")
 
 def dire(nom_personne="Tom", message_personne="Salut !", age_personne=18):

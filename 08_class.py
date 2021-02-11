@@ -21,10 +21,10 @@ class Humain:
         self.nom = nom
         self.age = age
         Humain.humains_crees += 1
-    
+
     def parler(self, message): # self= méthode standard
         print("{} a dit : {}".format(self.nom, message))
-    
+
     def changer_planete(cls, nouvelle_planete): # cls = méthode de classe
         Humain.lieu_habitation = nouvelle_planete
 
@@ -32,7 +32,7 @@ class Humain:
 
     def definition():
         print("L'Humain est classé comme etant le plus haut de la chaine alimentaires")
-    
+
     definition = staticmethod(definition)
 
 # Programme principal

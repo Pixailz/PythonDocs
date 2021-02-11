@@ -2,7 +2,7 @@
 #coding:utf-8
 
 """
-Crée une liste: 
+Crée une liste:
                 - empty list
                     - <name> = list()
                     - <name> = []
@@ -17,26 +17,26 @@ Crée une liste:
 Afficher une liste:
 
                 - print(<name[:]>)
-                
+
                 - i = 0
                   while i < len(<name>):
                       print(<name>[i])
                       i += 1
-                
+
                 - for valeur in invenaire:
                       print(valeur)
 
                 - ByIndex (where n is n-1)
-                    
+
                     # print n from the begin
                     - print(<name>[n])
-                    
+
                     # print n from the end
                     - print(<name>[-n])
 
                     # from n to end
-                    - print(<name>[n:]) 
-                    
+                    - print(<name>[n:])
+
                     # from begin to n
                     - print(<name>[:n]
 
@@ -52,9 +52,9 @@ class List():
             self.content = list()
         else:
             self.content = content
-    
+
     def typeOf(self):
-        
+
         print("Type Of VAR {}".format(type(self.content)))
 
     def Changer(self, content, index):
@@ -78,13 +78,13 @@ class List():
         self.Afficher()
 
     def Remove(self, content):
-        
+
         if isinstance(content, list):
-        
+
             for x in range(len(content)):
 
                 self.content.remove(content[x])
-                
+
             self.Afficher()
 
         else:
@@ -106,13 +106,13 @@ class List():
         for i, e in enumerate(self.content):
 
             print(f"A l'indice {i} se trouve {e}")
-    
+
     def Search(self, content):
         if content in self.content:
             print("Trouvée")
         else:
             print("Pas trouvée")
-    
+
     def IndexOf(self, content):
         index = self.content.index(content)
         print(f"{content} se trouve a l'index : {index}")
@@ -202,7 +202,7 @@ liste4.append("Potion de mana")
 print("Liste 3 :", liste3[:])
 print("Liste 4 :", liste4[:])
 
-# Tuples 
+# Tuples
 inventaire = ["Arc", "Épée", "Bouclier", "Potion"]
 
 for objet in inventaire:

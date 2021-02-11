@@ -7,7 +7,7 @@
 Création de tuple : monTuple = ()       #Vide
                     monTuple = 17,      #Une seul valeur
                     monTuple = (17,)    #Idem
-                    monTuple = (4, 6)   #Plusieur valeurs  
+                    monTuple = (4, 6)   #Plusieur valeurs
 
 Accès aux valeurs : monTuple[X]         #Valeur d'indice X
 

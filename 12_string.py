@@ -24,7 +24,7 @@ str.isidentifier(), str.iskeyword()
 """
 
 class ChaineDeCharactere():
-    
+
     def __init__(self, string):
         self.string = string
 
@@ -36,7 +36,7 @@ class ChaineDeCharactere():
 
     def afficherEnMajuscule(self):
         print(self.string.upper())
-    
+
     def afficherEnCapital(self):
         print(self.string.capitalize())
 
@@ -55,7 +55,7 @@ class ChaineDeCharactere():
         dans mon pays, en {pays}, j'aime bien {hobbies} toutes la journée
         """.format(name=name, surname=surname, age=age, pays=pays, hobbies=hobbies)
         print(sentence)
-    
+
     def afficherStrip(self):
         content = self.string.strip()
         print(content)
@@ -72,13 +72,13 @@ class ChaineDeCharactere():
 
     def replace(self, content, to):
         print(self.string.replace(content, to))
-    
+
     def isLower(self):
         print(self.string.islower())
-        
+
     def isAffected(self, content):
         print(content.isidentifier())
-        
+
 def Truncate(f):
     if not isinstance(f, float):
         raise TypeError("Le nombre doit etre un floattant")
