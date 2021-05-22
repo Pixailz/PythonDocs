@@ -30,7 +30,7 @@ class Files():
 
     def FOpen(self):
 
-        self.f = open("11donnees.txt", "r")
+        self.f = open("11_donnees.txt", "r")
 
     def FClose(self):
 
@@ -65,7 +65,7 @@ class Files():
             f.write("Et une autre ...\n")
         input(f"Regarde le contenus du fichier : {self.name}")
 
-f = Files(name="11donnees.txt")
+f = Files(name="11_donnees.txt")
 print("Readline\n")
 f.FOpen()
 f.FReadLine()
@@ -94,7 +94,7 @@ f.FCheckOpened()
 
 print("\n\n\n2nd Method\n")
 
-fi = "11donnees.txt"
+fi = "11_donnees.txt"
 
 with open(fi, "r") as f:
     content = f.readlines()
@@ -135,11 +135,11 @@ player_one.whoami()
 
 # TO REVERT CHANGE MADE ON FILE
 
-with open("11donnees.txt.bak", "r") as f1:
+with open("11_donnees.txt.bak", "r") as f1:
 
     content = f1.readlines()
 
-    with open("11donnees.txt", "w") as f2:
+    with open("11_donnees.txt", "w") as f2:
 
         for line in range(len(content)):
 

@@ -15,16 +15,16 @@ window_resolution = (800, 600)
 BLACK = (0, 0, 0)
 BLANK = (255, 255, 255)
 
-pygame.display.set_caption("37_pygame_pictures.py")
+pygame.display.set_caption("05_pygame_pictures.py")
 window_surface = pygame.display.set_mode(window_resolution)
 
-cat1 = pygame.image.load("cat.jpg")
+cat1 = pygame.image.load("05_cat.jpg")
 cat1.convert() # SANS TRANSPARENCE
 
-cat2 = pygame.image.load("cat.png")
+cat2 = pygame.image.load("05_cat.png")
 cat2.convert_alpha() # AVEC TRANSPARENCE
 
-cat3 = pygame.image.load("cat.jpg")
+cat3 = pygame.image.load("05_cat.jpg")
 cat3.convert()
 cat3.set_colorkey(BLANK) # MET EN TRANSPARENT LA COULEUR VOULU
 
