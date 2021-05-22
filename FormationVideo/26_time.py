@@ -77,7 +77,7 @@ print(f"Temps Exécuté ; {end - begin}s")
 """
 
 # localtime()
-"""
+
 def printDate():
     date = time.localtime()
 
@@ -89,4 +89,4 @@ def printDate():
     print(f"{date[3]}:{date[4]}:{date[5]} {date[2]}/{date[1]}/{date[0]}")
 
 printDate()
-"""
+

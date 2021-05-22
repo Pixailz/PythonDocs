@@ -74,3 +74,38 @@ def maFonction(**parametres):
     print(parametres)
 
 maFonction(p=154, nom="Blablabla")
+
+# Ranger des fonctions dans un dictionnaires
+def fete():
+    print("C'est la fête.")
+
+def oiseau():
+    print("Fait comme l'oiseau...")
+
+fonctions = dict()
+fonctions["fete"] = fete
+fonctions["oiseau"] = oiseau
+fonctions["oiseau"]()
+fonctions["dict"] = dict
+new_dict = fonctions["dict"]()
+print(type(new_dict))
+
+
+# Dictionnaires et Parametres
+def fonctions_inconnue(**parametres_nommes):
+    """Fonction permettant de voir comment récupérer les paramètres nommés
+    dans un dictionnaire"""
+
+    print(f"J'ai reçus en paramètres nommés : {parametres_nommes}")
+
+fonctions_inconnue()
+# "J'ai reçu en paramètres nommés : {}"
+fonctions_inconnue(p=4, j=8)
+# "J'ai reçu en paramètres nommés : {p=4, j=8}"
+
+def fonctions_inconnue2(µen_liste, **en_dictionnaire):
+    pass
+
+parametres = {"sep":" >> ", "end":" -\n"}
+print("Voici", "un", "exemple", "d'appel", **parametres)
+#Voici >> un >> exemple >> d'appel -
